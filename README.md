@@ -56,9 +56,9 @@ the app root or nested inside another bundle.
 
 ## Info.plist
 
-The ad request goes over HTTPS, but two things outside the SDK's control do not:
+The ad request goes over HTTPS. Two things still need an exception:
 
-- the impression tracking endpoint (`http://go.admost.com/adx/track.ashx`)
+- `admost.com`, for impression tracking
 - third party creatives, whose assets are served from arbitrary hosts
 
 ```xml
@@ -369,7 +369,7 @@ and device information collected for third party advertising, plus API reasons f
 
 `NSPrivacyTrackingDomains` is intentionally empty. Listing a domain there makes iOS block all
 requests to it when App Tracking Transparency permission has not been granted, which stops ad
-delivery. Whether `go.admost.com` belongs there depends on how the ad server treats requests
+delivery. Whether `admost.com` belongs there depends on how the ad server treats requests
 without consent.
 
 **No consent APIs.** The SDK does not read IAB TCF or GPP strings and does not forward GDPR,
