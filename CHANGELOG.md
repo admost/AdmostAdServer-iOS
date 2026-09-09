@@ -7,6 +7,16 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [1.6.1] — 2026-09-09
+
+### Fixed
+
+- The interscroller viewable-impression threshold was decided from the slot size at load
+  time, when it is still zero, so a large slot used the 50% threshold instead of 30%. It is
+  now decided once the slot has been laid out.
+
+---
+
 ## [1.6.0] — 2026-09-08
 
 ### Added

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AdmostAdServer'
-  s.version          = '1.6.0'
+  s.version          = '1.6.1'
   s.summary          = 'Admost ad server SDK for iOS.'
   s.description      = <<-DESC
     Requests creatives from the Admost ad server and renders banner, interstitial, rewarded
