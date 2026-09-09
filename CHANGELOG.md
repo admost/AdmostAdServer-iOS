@@ -7,6 +7,43 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [1.6.0] — 2026-09-08
+
+### Added
+
+- **Interscroller.** A new `AASInterscrollerView` renders a full bleed creative that stays
+  fixed on screen behind its slot in a scrolling feed, revealing a different slice as the
+  feed scrolls. It serves any creative type, including MRAID, and owns its impression on the
+  MRC rule measured against the slot. The ad server serves it as the `interscroller` type.
+- **MRAID.** Creatives that use MRAID now render, to the level of MRAID 3.0 a banner or
+  interstitial needs: the state machine and the `ready`, `stateChange`, `viewableChange`,
+  `exposureChange`, `sizeChange` and `error` events; `open`, `close`, `expand` (one and two
+  part) and orientation properties; and the position, size and viewability queries. The SDK
+  injects its own `mraid.js` and removes the creative's own script tag for it. `resize`, and
+  the `sms` / `tel` / `storePicture` / `createCalendarEvent` features, are reported as
+  unsupported through `mraid.supports()` rather than silently ignored. A creative that does
+  not mention MRAID is rendered as a plain tag, unchanged. See *Macros* and *Third party
+  creatives* in the README.
+- **Macro expansion in third party URLs.** The cache-buster (`[timestamp]`, `[CACHEBUSTING]`,
+  `[RANDOM]`, `%%CACHEBUSTER%%`) and the IAB TCF consent macros (`${GDPR}`,
+  `${GDPR_CONSENT_xxx}`) are now filled in the ad server's `thirdPartyImpURL`, `ctaURL` and
+  `privacyURL`, inside HTML tag creatives and in VAST tracking URLs. Previously they reached
+  the tracker percent-encoded (`ord=%5Btimestamp%5D`, `gdpr=$%7BGDPR%7D`), so DCM impressions
+  went out without a cache-buster and with a broken consent parameter. See *Macros* in the
+  README for the full list.
+- **GDPR consent.** The SDK reads `IABTCF_gdprApplies` and `IABTCF_TCString` from the standard
+  user defaults, so apps with a TCF v2 CMP need no change. Apps without one can call
+  `AdmostAdServerSDK.setGDPRConsent(applies:consentString:)`. Consent is used only to fill the
+  macros above; it is still not sent to the ad server.
+
+### Changed
+
+- Every impression request now carries its own cache-buster. The URLs are built from the raw
+  server strings at the moment they are used rather than once at decode time.
+- A server URL that is already valid is no longer percent-encoded a second time; encoding is
+  applied only when the string cannot form a URL as it is (spaces, non-ASCII characters).
+- VAST cache-busters are milliseconds since the epoch instead of an 8 digit random number.
+
 ## [1.5.0] — 2026-08-27
 
 First release distributed as a standalone SDK. Earlier versions shipped inside the Admost

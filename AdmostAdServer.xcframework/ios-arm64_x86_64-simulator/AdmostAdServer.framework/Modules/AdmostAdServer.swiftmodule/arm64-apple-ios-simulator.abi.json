@@ -137,6 +137,981 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdmostAdServer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdmostAdServer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdmostAdServer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "AdmostAdServer"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdmostAdServer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AASInterscrollerViewDelegate",
+        "printedName": "AASInterscrollerViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "interscrollerDidReceive",
+            "printedName": "interscrollerDidReceive(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AASInterscrollerView",
+                "printedName": "AdmostAdServer.AASInterscrollerView",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdmostAdServer@objc(pl)AASInterscrollerViewDelegate(im)interscrollerDidReceive:",
+            "mangledName": "$s14AdmostAdServer28AASInterscrollerViewDelegateP23interscrollerDidReceiveyyAA0dE0CF",
+            "moduleName": "AdmostAdServer",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdmostAdServer.AASInterscrollerViewDelegate>",
+            "sugared_genericSig": "<Self where Self : AdmostAdServer.AASInterscrollerViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interscrollerDidFailToReceive",
+            "printedName": "interscrollerDidFailToReceive(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AASInterscrollerView",
+                "printedName": "AdmostAdServer.AASInterscrollerView",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdmostAdServer@objc(pl)AASInterscrollerViewDelegate(im)interscrollerDidFailToReceive:error:",
+            "mangledName": "$s14AdmostAdServer28AASInterscrollerViewDelegateP29interscrollerDidFailToReceive_5erroryAA0dE0C_So7NSErrorCtF",
+            "moduleName": "AdmostAdServer",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdmostAdServer.AASInterscrollerViewDelegate>",
+            "sugared_genericSig": "<Self where Self : AdmostAdServer.AASInterscrollerViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interscrollerDidPresent",
+            "printedName": "interscrollerDidPresent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AASInterscrollerView",
+                "printedName": "AdmostAdServer.AASInterscrollerView",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdmostAdServer@objc(pl)AASInterscrollerViewDelegate(im)interscrollerDidPresent:",
+            "mangledName": "$s14AdmostAdServer28AASInterscrollerViewDelegateP23interscrollerDidPresentyyAA0dE0CF",
+            "moduleName": "AdmostAdServer",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdmostAdServer.AASInterscrollerViewDelegate>",
+            "sugared_genericSig": "<Self where Self : AdmostAdServer.AASInterscrollerViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interscrollerDidClick",
+            "printedName": "interscrollerDidClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AASInterscrollerView",
+                "printedName": "AdmostAdServer.AASInterscrollerView",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdmostAdServer@objc(pl)AASInterscrollerViewDelegate(im)interscrollerDidClick:",
+            "mangledName": "$s14AdmostAdServer28AASInterscrollerViewDelegateP21interscrollerDidClickyyAA0dE0CF",
+            "moduleName": "AdmostAdServer",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdmostAdServer.AASInterscrollerViewDelegate>",
+            "sugared_genericSig": "<Self where Self : AdmostAdServer.AASInterscrollerViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interscrollerDidDismiss",
+            "printedName": "interscrollerDidDismiss(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AASInterscrollerView",
+                "printedName": "AdmostAdServer.AASInterscrollerView",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdmostAdServer@objc(pl)AASInterscrollerViewDelegate(im)interscrollerDidDismiss:",
+            "mangledName": "$s14AdmostAdServer28AASInterscrollerViewDelegateP23interscrollerDidDismissyyAA0dE0CF",
+            "moduleName": "AdmostAdServer",
+            "genericSig": "<τ_0_0 where τ_0_0 : AdmostAdServer.AASInterscrollerViewDelegate>",
+            "sugared_genericSig": "<Self where Self : AdmostAdServer.AASInterscrollerViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@AdmostAdServer@objc(pl)AASInterscrollerViewDelegate",
+        "mangledName": "$s14AdmostAdServer28AASInterscrollerViewDelegateP",
+        "moduleName": "AdmostAdServer",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AASInterscrollerView",
+        "printedName": "AASInterscrollerView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any AdmostAdServer.AASInterscrollerViewDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(py)delegate",
+            "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC8delegateAA0dE8Delegate_pSgvp",
+            "moduleName": "AdmostAdServer",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdmostAdServer.AASInterscrollerViewDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AASInterscrollerViewDelegate",
+                        "printedName": "any AdmostAdServer.AASInterscrollerViewDelegate",
+                        "usr": "c:@M@AdmostAdServer@objc(pl)AASInterscrollerViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(im)delegate",
+                "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC8delegateAA0dE8Delegate_pSgvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any AdmostAdServer.AASInterscrollerViewDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AASInterscrollerViewDelegate",
+                        "printedName": "any AdmostAdServer.AASInterscrollerViewDelegate",
+                        "usr": "c:@M@AdmostAdServer@objc(pl)AASInterscrollerViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(im)setDelegate:",
+                "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC8delegateAA0dE8Delegate_pSgvs",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AdmostAdServer20AASInterscrollerViewC8delegateAA0dE8Delegate_pSgvM",
+                "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC8delegateAA0dE8Delegate_pSgvM",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customData",
+            "printedName": "customData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(py)customData",
+            "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC10customDataSDySSypGSgvp",
+            "moduleName": "AdmostAdServer",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(im)customData",
+                "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC10customDataSDySSypGSgvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(im)setCustomData:",
+                "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC10customDataSDySSypGSgvs",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14AdmostAdServer20AASInterscrollerViewC10customDataSDySSypGSgvM",
+                "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC10customDataSDySSypGSgvM",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "zoneId",
+            "printedName": "zoneId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(py)zoneId",
+            "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC6zoneIdSSvp",
+            "moduleName": "AdmostAdServer",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(im)zoneId",
+                "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC6zoneIdSSvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdStatus",
+                "printedName": "AdmostAdServer.AdStatus",
+                "usr": "c:@M@AdmostAdServer@E@AdStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(py)status",
+            "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC6statusAA0B6StatusOvp",
+            "moduleName": "AdmostAdServer",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdStatus",
+                    "printedName": "AdmostAdServer.AdStatus",
+                    "usr": "c:@M@AdmostAdServer@E@AdStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(im)status",
+                "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC6statusAA0B6StatusOvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adId",
+            "printedName": "adId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(py)adId",
+            "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC4adIdSSSgvp",
+            "moduleName": "AdmostAdServer",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(im)adId",
+                "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC4adIdSSSgvg",
+                "moduleName": "AdmostAdServer",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(zoneId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AASInterscrollerView",
+                "printedName": "AdmostAdServer.AASInterscrollerView",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(im)initWithZoneId:",
+            "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC6zoneIdACSS_tcfc",
+            "moduleName": "AdmostAdServer",
+            "objc_name": "initWithZoneId:",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(im)load",
+            "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC4loadyyF",
+            "moduleName": "AdmostAdServer",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToWindow",
+            "printedName": "didMoveToWindow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(im)didMoveToWindow",
+            "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC15didMoveToWindowyyF",
+            "moduleName": "AdmostAdServer",
+            "overriding": true,
+            "objc_name": "didMoveToWindow",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(im)layoutSubviews",
+            "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC14layoutSubviewsyyF",
+            "moduleName": "AdmostAdServer",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(im)destroy",
+            "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC7destroyyyF",
+            "moduleName": "AdmostAdServer",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AASInterscrollerView",
+                "printedName": "AdmostAdServer.AASInterscrollerView",
+                "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(im)initWithFrame:",
+            "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "AdmostAdServer",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView",
+        "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC",
+        "moduleName": "AdmostAdServer",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdmostAdServer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5716,6 +6691,51 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "setGDPRConsent",
+            "printedName": "setGDPRConsent(applies:consentString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AdmostAdServerSDK(cm)setGDPRApplies:consentString:",
+            "mangledName": "$s14AdmostAdServer0abC3SDKC14setGDPRConsent7applies13consentStringySb_SSSgtFZ",
+            "moduleName": "AdmostAdServer",
+            "static": true,
+            "objc_name": "setGDPRApplies:consentString:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -6227,1442 +7247,1554 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 315,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 349,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 376,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 412,
       "length": 3,
       "value": "201"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 442,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 472,
       "length": 3,
       "value": "301"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 500,
       "length": 3,
       "value": "302"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 528,
       "length": 3,
       "value": "303"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 557,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 590,
       "length": 3,
       "value": "401"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 622,
       "length": 3,
       "value": "402"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 659,
       "length": 3,
       "value": "403"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 691,
       "length": 3,
       "value": "405"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 716,
       "length": 3,
       "value": "900"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "Array",
       "offset": 4229,
       "length": 75,
       "value": "[\"video\/mp4\", \"video\/x-m4v\", \"video\/quicktime\", \"video\/3gpp\"]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 5937,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 5961,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "Array",
       "offset": 6107,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "Array",
       "offset": 6151,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 6508,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 6532,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "Array",
       "offset": 6687,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "IntegerLiteral",
       "offset": 7242,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "Array",
       "offset": 7314,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "Array",
       "offset": 7363,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "Array",
       "offset": 7431,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "BooleanLiteral",
       "offset": 7700,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "BooleanLiteral",
       "offset": 7772,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "Array",
       "offset": 7862,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "Array",
       "offset": 7892,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "Array",
       "offset": 7963,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "Array",
       "offset": 7994,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "Array",
       "offset": 8041,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "BooleanLiteral",
       "offset": 8334,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "Array",
       "offset": 9741,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTModel.swift",
       "kind": "Array",
       "offset": 9866,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTParser.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTParser.swift",
       "kind": "Dictionary",
       "offset": 1021,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTParser.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTParser.swift",
       "kind": "StringLiteral",
       "offset": 1048,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTParser.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTParser.swift",
       "kind": "Array",
       "offset": 1092,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTParser.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTParser.swift",
       "kind": "BooleanLiteral",
       "offset": 1122,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTMediaFileSelector.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTMediaFileSelector.swift",
       "kind": "IntegerLiteral",
       "offset": 421,
       "length": 4,
       "value": "2500"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTMediaFileSelector.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTMediaFileSelector.swift",
       "kind": "IntegerLiteral",
       "offset": 701,
       "length": 4,
       "value": "1080"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTTracker.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTTracker.swift",
       "kind": "Array",
       "offset": 941,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTTracker.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTTracker.swift",
       "kind": "Array",
       "offset": 993,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTTracker.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 1032,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTTracker.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTTracker.swift",
       "kind": "FloatLiteral",
       "offset": 1196,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTTracker.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 5028,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTTracker.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 5581,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTResolver.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTResolver.swift",
       "kind": "IntegerLiteral",
       "offset": 905,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTResolver.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/VASTResolver.swift",
       "kind": "FloatLiteral",
       "offset": 1108,
       "length": 3,
       "value": "8.0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/OmidVideoSession.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/OmidVideoSession.swift",
       "kind": "BooleanLiteral",
       "offset": 862,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/OmidVideoSession.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/VAST\/OmidVideoSession.swift",
       "kind": "BooleanLiteral",
       "offset": 904,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/OmidHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/OmidHelper.swift",
       "kind": "StringLiteral",
       "offset": 606,
       "length": 10,
       "value": "\"kokteyl1\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/OmidHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/OmidHelper.swift",
       "kind": "StringLiteral",
       "offset": 724,
       "length": 6,
       "value": "\"omid\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/OmidHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/OmidHelper.swift",
       "kind": "StringLiteral",
       "offset": 772,
       "length": 10,
       "value": "\"omsdk-v1\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/OmidHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/OmidHelper.swift",
       "kind": "StringLiteral",
       "offset": 828,
       "length": 4,
       "value": "\"js\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/OmidHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/OmidHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 924,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
       "kind": "StringLiteral",
       "offset": 365,
       "length": 11,
       "value": "\"aasBridge\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 14,
       "value": "\"aasRemeasure\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
       "kind": "StringLiteral",
       "offset": 640,
       "length": 17,
       "value": "\"aas_tag_wrapper\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
       "kind": "IntegerLiteral",
       "offset": 932,
       "length": 4,
       "value": "1200"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
       "kind": "IntegerLiteral",
       "offset": 1056,
       "length": 4,
       "value": "8000"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
       "kind": "IntegerLiteral",
       "offset": 1329,
       "length": 4,
       "value": "2000"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
       "kind": "IntegerLiteral",
       "offset": 1436,
       "length": 3,
       "value": "150"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
       "kind": "IntegerLiteral",
       "offset": 1605,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
       "kind": "IntegerLiteral",
       "offset": 1736,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/TagHTMLBuilder.swift",
       "kind": "IntegerLiteral",
       "offset": 1775,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/MRAID\/MRAIDBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1198,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/MRAID\/MRAIDBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 2770,
+      "length": 10,
+      "value": "\"aasMraid\""
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/MRAID\/MRAIDBridge.swift",
+      "kind": "FloatLiteral",
+      "offset": 3015,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/MRAID\/MRAIDBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3701,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/MRAID\/MRAIDBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3738,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/MRAID\/MRAIDBridge.swift",
+      "kind": "Array",
+      "offset": 4027,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/MRAID\/MRAIDBridge.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5589,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/MRAID\/MRAIDHTML.swift",
+      "kind": "StringLiteral",
+      "offset": 1732,
+      "length": 88,
+      "value": "\"<script\\b[^>]*\\bsrc\\s*=\\s*[\"']?[^\"'\\s>]*mraid\\.js[^\"'\\s>]*[\"']?[^>]*>\\s*<\/script\\s*>\""
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/MRAID\/MRAIDHTML.swift",
+      "kind": "StringLiteral",
+      "offset": 1841,
+      "length": 74,
+      "value": "\"<script\\b[^>]*\\bsrc\\s*=\\s*[\"']?[^\"'\\s>]*mraid\\.js[^\"'\\s>]*[\"']?[^>]*\/>\""
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/AdMacro.swift",
+      "kind": "StringLiteral",
+      "offset": 2590,
+      "length": 20,
+      "value": "\"IABTCF_gdprApplies\""
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/AdMacro.swift",
+      "kind": "StringLiteral",
+      "offset": 2641,
+      "length": 17,
+      "value": "\"IABTCF_TCString\""
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/AdMacro.swift",
+      "kind": "StringLiteral",
+      "offset": 5450,
+      "length": 69,
+      "value": "\"\\[(?:timestamp|CACHEBUSTING|CACHEBUSTER|RANDOM)\\]|%%CACHEBUSTER%%\""
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/AdMacro.swift",
+      "kind": "StringLiteral",
+      "offset": 5653,
+      "length": 23,
+      "value": "\"\\$\\{GDPR\\}|\\[GDPR\\]\""
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/AdMacro.swift",
+      "kind": "StringLiteral",
+      "offset": 5939,
+      "length": 59,
+      "value": "\"\\$\\{GDPR_CONSENT_\\d+\\}|\\[GDPR_CONSENT\\]|\\[GDPRCONSENT\\]\""
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "FloatLiteral",
       "offset": 512,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "IntegerLiteral",
       "offset": 736,
       "length": 2,
       "value": "64"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "IntegerLiteral",
       "offset": 741,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "IntegerLiteral",
       "offset": 748,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "IntegerLiteral",
       "offset": 936,
       "length": 3,
       "value": "256"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "IntegerLiteral",
       "offset": 942,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "IntegerLiteral",
       "offset": 949,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1055,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1060,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1065,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "StringLiteral",
       "offset": 1719,
       "length": 16,
       "value": "\"AdmostAdServer\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1750,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1818,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1915,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "Array",
       "offset": 6439,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "BooleanLiteral",
       "offset": 6660,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "IntegerLiteral",
       "offset": 6981,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Managers\/CacheManager.swift",
       "kind": "IntegerLiteral",
       "offset": 7038,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 533,
       "length": 13,
       "value": "\"adBackColor\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 580,
       "length": 19,
       "value": "\"adButtonBackColor\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 633,
       "length": 19,
       "value": "\"adButtonTextColor\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 679,
       "length": 12,
       "value": "\"titleColor\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 11,
       "value": "\"descColor\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 761,
       "length": 18,
       "value": "\"endCardBackColor\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 818,
       "length": 24,
       "value": "\"endCardButtonBackColor\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 881,
       "length": 24,
       "value": "\"endCardButtonTextColor\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 939,
       "length": 19,
       "value": "\"endCardTitleColor\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 991,
       "length": 18,
       "value": "\"endCardDescColor\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4216,
       "length": 8,
       "value": "\"banner\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4247,
       "length": 8,
       "value": "\"native\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4279,
       "length": 9,
       "value": "\"appOpen\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4317,
       "length": 14,
       "value": "\"interstitial\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
       "offset": 4356,
       "length": 10,
       "value": "\"rewarded\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4436,
+      "offset": 4552,
+      "length": 15,
+      "value": "\"interscroller\""
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "kind": "StringLiteral",
+      "offset": 4637,
       "length": 7,
       "value": "\"media\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4466,
+      "offset": 4667,
       "length": 8,
       "value": "\"banner\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 4494,
+      "offset": 4695,
       "length": 5,
       "value": "\"mpu\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5665,
+      "offset": 6643,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5696,
+      "offset": 6674,
       "length": 10,
       "value": "\"template\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5728,
+      "offset": 6706,
       "length": 7,
       "value": "\"media\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5762,
+      "offset": 6740,
       "length": 12,
       "value": "\"privacyURL\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5797,
+      "offset": 6775,
       "length": 8,
       "value": "\"ctaURL\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5829,
+      "offset": 6807,
       "length": 9,
       "value": "\"ctaText\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5868,
+      "offset": 6846,
       "length": 15,
       "value": "\"impTrackingId\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5916,
+      "offset": 6894,
       "length": 18,
       "value": "\"thirdPartyImpURL\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5958,
+      "offset": 6936,
       "length": 7,
       "value": "\"muted\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 5990,
+      "offset": 6968,
       "length": 10,
       "value": "\"autoPlay\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 6021,
+      "offset": 6999,
       "length": 6,
       "value": "\"adID\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 6049,
+      "offset": 7027,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 6077,
+      "offset": 7055,
       "length": 6,
       "value": "\"desc\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 6107,
+      "offset": 7085,
       "length": 9,
       "value": "\"iconURL\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 6144,
+      "offset": 7122,
       "length": 13,
       "value": "\"skippableAt\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 6191,
+      "offset": 7169,
       "length": 19,
       "value": "\"rvEndCardImageURL\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 6245,
+      "offset": 7223,
       "length": 20,
       "value": "\"mediaButtonEnabled\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 6287,
+      "offset": 7265,
       "length": 7,
       "value": "\"style\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 6321,
+      "offset": 7299,
       "length": 12,
       "value": "\"stickyRate\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Ad.swift",
       "kind": "StringLiteral",
-      "offset": 6365,
+      "offset": 7343,
       "length": 17,
       "value": "\"showCloseButton\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
       "kind": "Array",
-      "offset": 1138,
+      "offset": 1403,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1642,
+      "offset": 2159,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1687,
+      "offset": 2204,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1779,
+      "offset": 2296,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
       "kind": "Array",
-      "offset": 1833,
+      "offset": 2350,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/MediaView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1877,
+      "offset": 2394,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/ArcView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/ArcView.swift",
       "kind": "IntegerLiteral",
       "offset": 539,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/ArcView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/ArcView.swift",
       "kind": "IntegerLiteral",
       "offset": 672,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/ArcView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/ArcView.swift",
       "kind": "StringLiteral",
       "offset": 818,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 5,
       "value": "10001"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 207,
       "length": 5,
       "value": "10002"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
       "length": 5,
       "value": "10003"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 262,
       "length": 5,
       "value": "10004"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 291,
       "length": 5,
       "value": "10005"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 319,
       "length": 5,
       "value": "10006"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 351,
       "length": 5,
       "value": "10007"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 389,
       "length": 5,
       "value": "10008"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 417,
       "length": 5,
       "value": "10009"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ErrorHelper.swift",
       "kind": "IntegerLiteral",
       "offset": 449,
       "length": 5,
       "value": "10010"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIDevice+AAS.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIDevice+AAS.swift",
       "kind": "StringLiteral",
       "offset": 354,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIDevice+AAS.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIDevice+AAS.swift",
       "kind": "IntegerLiteral",
       "offset": 446,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Templates\/MediaBannerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Templates\/MediaBannerView.swift",
       "kind": "BooleanLiteral",
       "offset": 498,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Templates\/MediaBannerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Templates\/MediaBannerView.swift",
       "kind": "FloatLiteral",
       "offset": 961,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 181,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 293,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 318,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/BaseAd.swift",
       "kind": "IntegerLiteral",
       "offset": 342,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
       "kind": "IntegerLiteral",
       "offset": 779,
       "length": 3,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
       "kind": "IntegerLiteral",
       "offset": 837,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
       "kind": "IntegerLiteral",
       "offset": 1210,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
       "kind": "FloatLiteral",
       "offset": 1445,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASBannerView.swift",
       "kind": "FloatLiteral",
       "offset": 1513,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/AdHelper.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/AdHelper.swift",
       "kind": "Array",
       "offset": 679,
       "length": 44,
       "value": "[\"http\", \"https\", \"itms-apps\", \"itms-appss\"]"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ViewabilityTracker.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ViewabilityTracker.swift",
       "kind": "FloatLiteral",
       "offset": 1715,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ViewabilityTracker.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ViewabilityTracker.swift",
       "kind": "FloatLiteral",
       "offset": 1737,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ViewabilityTracker.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ViewabilityTracker.swift",
       "kind": "FloatLiteral",
       "offset": 2142,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ViewabilityTracker.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ViewabilityTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 2333,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ViewabilityTracker.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/ViewabilityTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 2410,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 7,
       "value": "\"image\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 7,
       "value": "\"video\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 245,
       "length": 6,
       "value": "\"html\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 440,
       "length": 10,
       "value": "\"html_tag\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 653,
       "length": 6,
       "value": "\"vast\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1110,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1136,
       "length": 5,
       "value": "\"url\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Model\/Media.swift",
       "kind": "StringLiteral",
       "offset": 1162,
       "length": 6,
       "value": "\"html\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIColor+AAS.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIColor+AAS.swift",
       "kind": "FloatLiteral",
       "offset": 181,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/Bundle+AAS.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/Bundle+AAS.swift",
       "kind": "StringLiteral",
       "offset": 162,
       "length": 25,
       "value": "\"AdmostAdServerResources\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIImageView+AAS.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIImageView+AAS.swift",
       "kind": "FloatLiteral",
       "offset": 449,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIImageView+AAS.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIImageView+AAS.swift",
       "kind": "IntegerLiteral",
       "offset": 681,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASNativeAd.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/Ad\/AASNativeAd.swift",
       "kind": "IntegerLiteral",
       "offset": 748,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Config\/Constants.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Config\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 27,
       "value": "\"kAMRUserGuidKeyForAdapter\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Config\/Constants.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Config\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 617,
       "length": 24,
       "value": "\"https:\/\/go.admost.com\/\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/API\/APIRouter.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/API\/APIRouter.swift",
       "kind": "StringLiteral",
       "offset": 171,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/API\/APIRouter.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/API\/APIRouter.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/AdView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/AdView.swift",
       "kind": "BooleanLiteral",
       "offset": 847,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/AdView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/AdView.swift",
       "kind": "BooleanLiteral",
       "offset": 890,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/AdmostAdServer.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Public\/AdmostAdServer.swift",
       "kind": "StringLiteral",
       "offset": 265,
       "length": 7,
-      "value": "\"1.5.0\""
+      "value": "\"1.6.0\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 526,
       "length": 33,
       "value": "\"ReachabilityChangedNotification\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 658,
       "length": 21,
       "value": "\"reachabilityChanged\""
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 1854,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 2911,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 3022,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
       "kind": "FloatLiteral",
       "offset": 1199,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 1399,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
       "kind": "IntegerLiteral",
       "offset": 1729,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 1916,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 1959,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 2143,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/VideoPlayerView.swift",
       "kind": "BooleanLiteral",
       "offset": 2186,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1851,
+      "offset": 2215,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
+      "kind": "Array",
+      "offset": 2628,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14826,
+      "offset": 16826,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14835,
+      "offset": 16835,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14846,
+      "offset": 16846,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Views\/WebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14856,
+      "offset": 16856,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIView+AAS.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Extension\/UIView+AAS.swift",
       "kind": "IntegerLiteral",
       "offset": 1322,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
       "kind": "IntegerLiteral",
       "offset": 188,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
       "kind": "IntegerLiteral",
       "offset": 244,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
+      "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 595,
       "length": 18,

@@ -414,6 +414,34 @@ SWIFT_PROTOCOL("_TtP14AdmostAdServer21AASBannerViewDelegate_")
 - (void)bannerDidResize:(AASBannerView * _Nonnull)banner size:(CGSize)size;
 @end
 
+@protocol AASInterscrollerViewDelegate;
+SWIFT_CLASS("_TtC14AdmostAdServer20AASInterscrollerView")
+@interface AASInterscrollerView : UIView
+@property (nonatomic, weak) id <AASInterscrollerViewDelegate> _Nullable delegate;
+@property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable customData;
+@property (nonatomic, readonly, copy) NSString * _Nonnull zoneId;
+@property (nonatomic, readonly) enum AdStatus status;
+@property (nonatomic, readonly, copy) NSString * _Nullable adId;
+- (nonnull instancetype)initWithZoneId:(NSString * _Nonnull)zoneId OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)load;
+- (void)didMoveToWindow;
+- (void)layoutSubviews;
+- (void)destroy;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+SWIFT_PROTOCOL("_TtP14AdmostAdServer28AASInterscrollerViewDelegate_")
+@protocol AASInterscrollerViewDelegate
+@optional
+- (void)interscrollerDidReceive:(AASInterscrollerView * _Nonnull)interscroller;
+- (void)interscrollerDidFailToReceive:(AASInterscrollerView * _Nonnull)interscroller error:(NSError * _Nonnull)error;
+/// The creative has met the viewable impression threshold.
+- (void)interscrollerDidPresent:(AASInterscrollerView * _Nonnull)interscroller;
+- (void)interscrollerDidClick:(AASInterscrollerView * _Nonnull)interscroller;
+- (void)interscrollerDidDismiss:(AASInterscrollerView * _Nonnull)interscroller;
+@end
+
 SWIFT_CLASS("_TtC14AdmostAdServer6BaseAd")
 @interface BaseAd : NSObject
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable customData;
@@ -534,6 +562,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isInitialized;)
 + (void)setEncryptedIDFA:(NSString * _Nonnull)encryptedIDFA;
 + (void)setAdmostUserId:(NSString * _Nonnull)admostUserId;
 + (void)setAdmostAppId:(NSString * _Nonnull)admostAppId;
+/// GDPR consent to fill into the third party tracking and click URLs a campaign ships
+/// with (<code>${GDPR}</code>, <code>${GDPR_CONSENT_xxx}</code> and the like).
+/// Only needed when the app does not use an IAB TCF v2 consent management platform: with
+/// a CMP the SDK reads <code>IABTCF_gdprApplies</code> and <code>IABTCF_TCString</code> from the standard user
+/// defaults on its own. A value set here takes precedence over the CMP’s.
+/// \param applies whether the user is subject to GDPR.
+///
+/// \param consentString the IAB TC string, or <code>nil</code> when there is none.
+///
++ (void)setGDPRApplies:(BOOL)applies consentString:(NSString * _Nullable)consentString;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -968,6 +1006,34 @@ SWIFT_PROTOCOL("_TtP14AdmostAdServer21AASBannerViewDelegate_")
 - (void)bannerDidResize:(AASBannerView * _Nonnull)banner size:(CGSize)size;
 @end
 
+@protocol AASInterscrollerViewDelegate;
+SWIFT_CLASS("_TtC14AdmostAdServer20AASInterscrollerView")
+@interface AASInterscrollerView : UIView
+@property (nonatomic, weak) id <AASInterscrollerViewDelegate> _Nullable delegate;
+@property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable customData;
+@property (nonatomic, readonly, copy) NSString * _Nonnull zoneId;
+@property (nonatomic, readonly) enum AdStatus status;
+@property (nonatomic, readonly, copy) NSString * _Nullable adId;
+- (nonnull instancetype)initWithZoneId:(NSString * _Nonnull)zoneId OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (void)load;
+- (void)didMoveToWindow;
+- (void)layoutSubviews;
+- (void)destroy;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+SWIFT_PROTOCOL("_TtP14AdmostAdServer28AASInterscrollerViewDelegate_")
+@protocol AASInterscrollerViewDelegate
+@optional
+- (void)interscrollerDidReceive:(AASInterscrollerView * _Nonnull)interscroller;
+- (void)interscrollerDidFailToReceive:(AASInterscrollerView * _Nonnull)interscroller error:(NSError * _Nonnull)error;
+/// The creative has met the viewable impression threshold.
+- (void)interscrollerDidPresent:(AASInterscrollerView * _Nonnull)interscroller;
+- (void)interscrollerDidClick:(AASInterscrollerView * _Nonnull)interscroller;
+- (void)interscrollerDidDismiss:(AASInterscrollerView * _Nonnull)interscroller;
+@end
+
 SWIFT_CLASS("_TtC14AdmostAdServer6BaseAd")
 @interface BaseAd : NSObject
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable customData;
@@ -1088,6 +1154,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isInitialized;)
 + (void)setEncryptedIDFA:(NSString * _Nonnull)encryptedIDFA;
 + (void)setAdmostUserId:(NSString * _Nonnull)admostUserId;
 + (void)setAdmostAppId:(NSString * _Nonnull)admostAppId;
+/// GDPR consent to fill into the third party tracking and click URLs a campaign ships
+/// with (<code>${GDPR}</code>, <code>${GDPR_CONSENT_xxx}</code> and the like).
+/// Only needed when the app does not use an IAB TCF v2 consent management platform: with
+/// a CMP the SDK reads <code>IABTCF_gdprApplies</code> and <code>IABTCF_TCString</code> from the standard user
+/// defaults on its own. A value set here takes precedence over the CMP’s.
+/// \param applies whether the user is subject to GDPR.
+///
+/// \param consentString the IAB TC string, or <code>nil</code> when there is none.
+///
++ (void)setGDPRApplies:(BOOL)applies consentString:(NSString * _Nullable)consentString;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

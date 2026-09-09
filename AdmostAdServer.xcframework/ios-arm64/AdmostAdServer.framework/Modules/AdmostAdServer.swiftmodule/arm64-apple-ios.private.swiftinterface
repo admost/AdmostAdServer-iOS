@@ -15,6 +15,32 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc public protocol AASInterscrollerViewDelegate {
+  @objc optional func interscrollerDidReceive(_ interscroller: AdmostAdServer.AASInterscrollerView)
+  @objc optional func interscrollerDidFailToReceive(_ interscroller: AdmostAdServer.AASInterscrollerView, error: Foundation.NSError)
+  @objc optional func interscrollerDidPresent(_ interscroller: AdmostAdServer.AASInterscrollerView)
+  @objc optional func interscrollerDidClick(_ interscroller: AdmostAdServer.AASInterscrollerView)
+  @objc optional func interscrollerDidDismiss(_ interscroller: AdmostAdServer.AASInterscrollerView)
+}
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class AASInterscrollerView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any AdmostAdServer.AASInterscrollerViewDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency public var customData: [Swift.String : Any]?
+  @objc @_Concurrency.MainActor @preconcurrency public var zoneId: Swift.String {
+    get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var status: AdmostAdServer.AdStatus {
+    get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public var adId: Swift.String? {
+    get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public init(zoneId: Swift.String)
+  @objc @_Concurrency.MainActor @preconcurrency public func load()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc @_Concurrency.MainActor @preconcurrency public func destroy()
+  @objc deinit
+}
 @objc public protocol AASInterstitialDelegate {
   @objc optional func interstitialDidReceive(_ interstitial: AdmostAdServer.AASInterstitial)
   @objc optional func interstitialDidFailToReceive(_ interstitial: AdmostAdServer.AASInterstitial, error: Foundation.NSError)
@@ -192,6 +218,7 @@ import _SwiftConcurrencyShims
   @objc public static func setEncryptedIDFA(_ encryptedIDFA: Swift.String)
   @objc public static func setAdmostUserId(_ admostUserId: Swift.String)
   @objc public static func setAdmostAppId(_ admostAppId: Swift.String)
+  @objc(setGDPRApplies:consentString:) public static func setGDPRConsent(applies: Swift.Bool, consentString: Swift.String?)
   @objc override dynamic public init()
   @objc deinit
 }
