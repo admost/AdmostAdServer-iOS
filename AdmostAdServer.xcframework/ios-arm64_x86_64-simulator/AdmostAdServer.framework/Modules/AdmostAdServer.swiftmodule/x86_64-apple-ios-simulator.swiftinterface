@@ -36,6 +36,7 @@ import _SwiftConcurrencyShims
   }
   @objc @_Concurrency.MainActor @preconcurrency public init(zoneId: Swift.String)
   @objc @_Concurrency.MainActor @preconcurrency public func load()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToSuperview()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didMoveToWindow()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
   @objc @_Concurrency.MainActor @preconcurrency public func destroy()

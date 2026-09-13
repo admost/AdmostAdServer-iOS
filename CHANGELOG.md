@@ -7,6 +7,19 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [1.6.2] — 2026-09-13
+
+### Changed
+
+- **Interscroller rendering reworked to hold the creative still.** The creative is now drawn
+  in a window level layer that is fixed on screen, and the slot reveals it through a mask that
+  moves as the feed scrolls, instead of the creative being repositioned every frame to chase
+  the scroll. This removes the jitter during scrolling and during a top-bar animation. The SDK
+  finds the enclosing scroll view from the slot, so no publisher-side scroll view wiring or
+  table subclass is needed. A tap on the slot opens the click-through.
+
+---
+
 ## [1.6.1] — 2026-09-09
 
 ### Fixed

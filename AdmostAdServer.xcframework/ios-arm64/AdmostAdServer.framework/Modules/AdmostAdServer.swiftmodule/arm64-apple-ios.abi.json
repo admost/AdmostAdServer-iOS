@@ -878,6 +878,34 @@
           },
           {
             "kind": "Function",
+            "name": "didMoveToSuperview",
+            "printedName": "didMoveToSuperview()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdmostAdServer@objc(cs)AASInterscrollerView(im)didMoveToSuperview",
+            "mangledName": "$s14AdmostAdServer20AASInterscrollerViewC18didMoveToSuperviewyyF",
+            "moduleName": "AdmostAdServer",
+            "overriding": true,
+            "objc_name": "didMoveToSuperview",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "didMoveToWindow",
             "printedName": "didMoveToWindow()",
             "children": [
@@ -899,8 +927,7 @@
               "Preconcurrency",
               "Custom",
               "Override",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -8630,7 +8657,7 @@
       "kind": "StringLiteral",
       "offset": 265,
       "length": 7,
-      "value": "\"1.6.1\""
+      "value": "\"1.6.2\""
     },
     {
       "filePath": "\/Users\/mehmetkaragoz\/dev\/adserver\/adserver.ios\/AdmostAdServer\/AdmostAdServer\/Private\/Helpers\/Reachability.swift",

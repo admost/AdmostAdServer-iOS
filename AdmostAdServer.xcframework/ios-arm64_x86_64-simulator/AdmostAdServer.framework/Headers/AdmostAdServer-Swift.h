@@ -425,6 +425,7 @@ SWIFT_CLASS("_TtC14AdmostAdServer20AASInterscrollerView")
 - (nonnull instancetype)initWithZoneId:(NSString * _Nonnull)zoneId OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)load;
+- (void)didMoveToSuperview;
 - (void)didMoveToWindow;
 - (void)layoutSubviews;
 - (void)destroy;
@@ -1017,6 +1018,7 @@ SWIFT_CLASS("_TtC14AdmostAdServer20AASInterscrollerView")
 - (nonnull instancetype)initWithZoneId:(NSString * _Nonnull)zoneId OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)load;
+- (void)didMoveToSuperview;
 - (void)didMoveToWindow;
 - (void)layoutSubviews;
 - (void)destroy;
