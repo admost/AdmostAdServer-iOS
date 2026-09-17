@@ -367,10 +367,14 @@ The framework ships a `PrivacyInfo.xcprivacy` declaring device ID, user ID, adve
 and device information collected for third party advertising, plus API reasons for
 `UserDefaults` (`CA92.1`) and file timestamps (`C617.1`).
 
-`NSPrivacyTrackingDomains` is intentionally empty. Listing a domain there makes iOS block all
-requests to it when App Tracking Transparency permission has not been granted, which stops ad
-delivery. Whether `admost.com` belongs there depends on how the ad server treats requests
-without consent.
+`NSPrivacyTracking` and `NSPrivacyTrackingDomains` are both absent. Declaring
+`NSPrivacyTracking` true alongside an empty domain array made App Store Connect reject every
+app embedding the framework with ITMS-91064. The only combination Apple accepts instead is
+listing `admost.com` as a tracking domain, but iOS then blocks every request to it when App
+Tracking Transparency permission has not been granted — and that is the single ad serving
+endpoint, so delivery would stop outright. Until serving moves off the tracking domain neither
+key is declared, which is what AMRSDK does. The tracking use of the data is still declared per
+data type through `NSPrivacyCollectedDataTypeTracking`.
 
 **No consent APIs.** The SDK does not read IAB TCF or GPP strings and does not forward GDPR,
 CCPA or COPPA signals to the ad server.
