@@ -4,7 +4,7 @@ Ad serving SDK for iOS. Requests creatives from the Admost ad server and renders
 interstitial, rewarded and native placements, including third party HTML tags and VAST video,
 with IAB Open Measurement (OMID) support.
 
-- **Version:** 1.5.0
+- **Version:** 1.6.3
 - **Language:** Swift 5, full Objective-C interoperability (`@objc`)
 
 ---
@@ -29,7 +29,7 @@ linked into it, so there is nothing else to add.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/admost/AdmostAdServer-iOS.git", from: "1.5.0")
+    .package(url: "https://github.com/admost/AdmostAdServer-iOS.git", from: "1.6.3")
 ]
 ```
 
@@ -38,7 +38,7 @@ Or in Xcode: *File → Add Package Dependencies…* and paste the repository URL
 ### CocoaPods
 
 ```ruby
-pod 'AdmostAdServer', '~> 1.5'
+pod 'AdmostAdServer', '~> 1.6'
 ```
 
 ### Manual
@@ -367,14 +367,15 @@ The framework ships a `PrivacyInfo.xcprivacy` declaring device ID, user ID, adve
 and device information collected for third party advertising, plus API reasons for
 `UserDefaults` (`CA92.1`) and file timestamps (`C617.1`).
 
-`NSPrivacyTracking` and `NSPrivacyTrackingDomains` are both absent. Declaring
+`NSPrivacyTracking` is declared false and `NSPrivacyTrackingDomains` is absent. The SDK never
+requests App Tracking Transparency permission or reads the IDFA itself. Declaring
 `NSPrivacyTracking` true alongside an empty domain array made App Store Connect reject every
-app embedding the framework with ITMS-91064. The only combination Apple accepts instead is
-listing `admost.com` as a tracking domain, but iOS then blocks every request to it when App
-Tracking Transparency permission has not been granted — and that is the single ad serving
-endpoint, so delivery would stop outright. Until serving moves off the tracking domain neither
-key is declared, which is what AMRSDK does. The tracking use of the data is still declared per
-data type through `NSPrivacyCollectedDataTypeTracking`.
+app embedding the framework with ITMS-91064. The only way to declare it true is listing
+`admost.com` as a tracking domain, but iOS then blocks every request to it when App Tracking
+Transparency permission has not been granted — and that is the single ad serving endpoint, so
+delivery would stop outright. Each collected data type declares its own tracking use through
+`NSPrivacyCollectedDataTypeTracking`; the device ID (the encrypted IDFA the host app passes
+in) is not declared for tracking.
 
 **No consent APIs.** The SDK does not read IAB TCF or GPP strings and does not forward GDPR,
 CCPA or COPPA signals to the ad server.
