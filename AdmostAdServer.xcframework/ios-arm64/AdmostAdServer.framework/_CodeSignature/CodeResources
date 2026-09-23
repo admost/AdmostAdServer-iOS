@@ -6,43 +6,43 @@
 	<dict>
 		<key>Headers/AdmostAdServer-Swift.h</key>
 		<data>
-		HukZxgfhYC/E93nFMHB5Sl6JRMo=
+		7GI9V3afI9bj10Ov+xXZr1UHpQ0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zDg+3B7i8Mh/o99WhW8biVonqBU=
+		hvxrg0m82cT/TNY92hgMbHRbWwc=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		s+tbEpcTdeeI3Lj14BE/xkrhU2E=
+		YrI6M0SV3i4hQFJ6uln+XtdFSk8=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		0xDgUHvbmYeWaSEjgGsabAeWHqA=
+		Emu16Ve/QZyr7Bn0Z2ahor3sxjc=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		bKzgYMaU2xnrNNF4kzwviYD3DAw=
+		E5S9BJrS6b58tvEmqLuL2WbwsSc=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		eU5YYrffhmjJ1oCtsVxHBtDNYUM=
+		OCoidJ37A++RteXvyX3kO05fAcQ=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		bKzgYMaU2xnrNNF4kzwviYD3DAw=
+		E5S9BJrS6b58tvEmqLuL2WbwsSc=
 		</data>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jnbCDBEdMERscKhEtcgE7VFSERE=
+		daNs7LhRGoRJFWS+F9WV/Rpf0uE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		d/X7mxWaEGoHRY1EjkN/rNc1suY=
+		yNUCENiKMQNH1+DBv2xayauWotY=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		H7ZX7cj2dX6jqb3N0MdWkUi42xw=
+		PxP0XNFyLr6LtsEDunTHkqdEd5c=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,63 +51,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FgiRdnpRSqv6HTH58dlqa1laEPpIYqKJW8ATLb3CGXk=
+			xLdspkh1mHNNS2kUhI1UGyknICpfnl13FF21wOqAfcs=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vM0MhWVYbIqCaX84JNvido8j7P5vW6JnZDJrxGvEYyU=
+			xPLgFFz/S5GvWUTiLYquIV/eiNpMF4wb0T/ej4FWyRw=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BddDBH3zQ6bXRjpnAJRisc4NJbIJr6DRGXU5W6id7Xk=
+			TfHJXdETDRq/ZYAsjZJ05YnE9ygo4MWGugkDSFQHvA4=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wG2QxPZqh8YkRVCl5YBlUpldMkOT+Wa0aCj2fJEl0I8=
+			zm/N0OUzo3kyGcKk/QbMmxUH44iuNE094wROLoXwVLI=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A3jVf0JwWhGxBzIHT+zDhhmkKK21x7R13RIC45U1c5g=
+			1ftUy9qqOXbUrAAA9a4mIvHdZbs3lsAKGOEpknCHm6Y=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wG2QxPZqh8YkRVCl5YBlUpldMkOT+Wa0aCj2fJEl0I8=
+			zm/N0OUzo3kyGcKk/QbMmxUH44iuNE094wROLoXwVLI=
 			</data>
 		</dict>
 		<key>Modules/AdmostAdServer.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			62XtVS0Di2wsmSCEZzfKyrHiX7yHDCxBpC3OApOf0mw=
+			OMwArXXWLGvDxEmzGKQ2XkXAxyKCY1/4iRfvMfTq+V0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l182KhTF6OVrA0bU0W2XhUPVv3eic2S1DKJqvYWhmtc=
+			lBJlwfc/TZuOR/KZArBYLANtQErTjyI6o9odJ1EC+zE=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			evgeuuQcIY0AyLuhDCnKwC2/zuCs11Vw3R968t8UUVw=
+			Jlny8LJA7e416XsjB9kDvR9tHOBsy1XwNUWQ/59JdME=
 			</data>
 		</dict>
 	</dict>

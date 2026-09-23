@@ -7,6 +7,22 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [1.6.3] — 2026-09-17
+
+### Fixed
+
+- Fix invalid privacy manifest that caused ITMS-91064 on App Store upload. The framework's
+  `PrivacyInfo.xcprivacy` declared `NSPrivacyTracking` true with an empty
+  `NSPrivacyTrackingDomains` array, a combination App Store Connect rejects, so every app
+  embedding the SDK failed upload validation. `NSPrivacyTracking` is now declared false and
+  `NSPrivacyTrackingDomains` is omitted; the SDK never requests App Tracking Transparency
+  permission or reads the IDFA itself.
+- The device ID collected type (the encrypted IDFA passed in through `setEncryptedIDFA`) no
+  longer declares tracking use. The other collected types and the accessed API reasons are
+  unchanged. No API or behaviour change.
+
+---
+
 ## [1.6.2] — 2026-09-13
 
 ### Changed

@@ -1,3 +1,4 @@
 framework module AdmostAdServer {
   header "AdmostAdServer-Swift.h"
+  requires objc
 }
