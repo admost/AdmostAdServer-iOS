@@ -208,6 +208,12 @@ import _SwiftConcurrencyShims
   @objc public var ctaURL: Foundation.URL? {
     get
   }
+  @objc public var adBackColor: Swift.String? {
+    get
+  }
+  @objc public var titleColor: Swift.String? {
+    get
+  }
   @objc public init(zoneId: Swift.String)
   @objc public func load()
   @objc public func register(privacyView: UIKit.UIView)

@@ -435,6 +435,11 @@ SWIFT_CLASS("_TtC14AdmostAdServer11AASNativeAd")
 @property (nonatomic, readonly, strong) UIImage * _Nullable privacyIcon;
 @property (nonatomic, readonly, copy) NSURL * _Nullable iconURL;
 @property (nonatomic, readonly, copy) NSURL * _Nullable ctaURL;
+/// The campaign’s <code>style.adBackColor</code> and <code>style.titleColor</code> as hex strings (e.g. <code>#000000</code>),
+/// for publishers that colour their own UI around the ad. When the campaign sets none they
+/// hold the style defaults, <code>#000000</code> and <code>#FFFFFF</code>.
+@property (nonatomic, readonly, copy) NSString * _Nullable adBackColor;
+@property (nonatomic, readonly, copy) NSString * _Nullable titleColor;
 - (nonnull instancetype)initWithZoneId:(NSString * _Nonnull)zoneId OBJC_DESIGNATED_INITIALIZER;
 - (void)load;
 - (void)registerWithPrivacyView:(UIView * _Nonnull)privacyView;
@@ -963,6 +968,11 @@ SWIFT_CLASS("_TtC14AdmostAdServer11AASNativeAd")
 @property (nonatomic, readonly, strong) UIImage * _Nullable privacyIcon;
 @property (nonatomic, readonly, copy) NSURL * _Nullable iconURL;
 @property (nonatomic, readonly, copy) NSURL * _Nullable ctaURL;
+/// The campaign’s <code>style.adBackColor</code> and <code>style.titleColor</code> as hex strings (e.g. <code>#000000</code>),
+/// for publishers that colour their own UI around the ad. When the campaign sets none they
+/// hold the style defaults, <code>#000000</code> and <code>#FFFFFF</code>.
+@property (nonatomic, readonly, copy) NSString * _Nullable adBackColor;
+@property (nonatomic, readonly, copy) NSString * _Nullable titleColor;
 - (nonnull instancetype)initWithZoneId:(NSString * _Nonnull)zoneId OBJC_DESIGNATED_INITIALIZER;
 - (void)load;
 - (void)registerWithPrivacyView:(UIView * _Nonnull)privacyView;

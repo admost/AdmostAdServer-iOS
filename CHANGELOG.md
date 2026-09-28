@@ -7,6 +7,17 @@ project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [1.6.4] — 2026-09-28
+
+### Added
+
+- `AASNativeAd.adBackColor` and `AASNativeAd.titleColor` expose the campaign's
+  `style.adBackColor` and `style.titleColor` as hex strings, for publishers that colour their
+  own UI around a native ad. When the campaign sets none they hold the style defaults,
+  `#000000` and `#FFFFFF`. No other API or behaviour change.
+
+---
+
 ## [1.6.3] — 2026-09-17
 
 ### Fixed

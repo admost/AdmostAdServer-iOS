@@ -4,7 +4,7 @@ Ad serving SDK for iOS. Requests creatives from the Admost ad server and renders
 interstitial, rewarded and native placements, including third party HTML tags and VAST video,
 with IAB Open Measurement (OMID) support.
 
-- **Version:** 1.6.3
+- **Version:** 1.6.4
 - **Language:** Swift 5, full Objective-C interoperability (`@objc`)
 
 ---
@@ -29,7 +29,7 @@ linked into it, so there is nothing else to add.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/admost/AdmostAdServer-iOS.git", from: "1.6.3")
+    .package(url: "https://github.com/admost/AdmostAdServer-iOS.git", from: "1.6.4")
 ]
 ```
 
