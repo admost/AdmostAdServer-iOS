@@ -217,6 +217,7 @@ func nativeAdDidReceive(_ nativeAd: AASNativeAd) {
 | `title`, `desc`, `ctaText` | `String?` |
 | `icon`, `privacyIcon` | `UIImage?` |
 | `iconURL`, `ctaURL` | `URL?` |
+| `adBackColor`, `titleColor` | `String?` — the campaign's background and title colours as hex (`#RRGGBB`); `#000000` and `#FFFFFF` when the campaign sets none |
 | `mediaView` | `UIView?` — image, video or HTML creative |
 
 `register(clickableViews:)` attaches a target/action to any `UIControl` and a tap recogniser
